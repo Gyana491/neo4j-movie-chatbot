@@ -1,0 +1,11 @@
+movie_id,title,year,genre,director,rating
+1,The Matrix,1999,Action,Wachowski Sisters,8.7
+2,Toy Story,1995,Animation,John Lasseter,8.3
+3,Titanic,1997,Romance,James Cameron,7.9
+4,Avatar,2009,Sci-Fi,James Cameron,7.9
+5,Frozen,2013,Animation,Chris Buck,7.4
+6,The Dark Knight,2008,Action,Christopher Nolan,9.0
+7,Forrest Gump,1994,Drama,Robert Zemeckis,8.8
+8,Inception,2010,Sci-Fi,Christopher Nolan,8.8
+9,The Lion King,1994,Animation,Roger Allers,8.5
+10,Pulp Fiction,1994,Crime,Quentin Tarantino,8.9

@@ -1,0 +1,19 @@
+person_name,movie_title,relationship_type,character_name
+Keanu Reeves,The Matrix,ACTED_IN,Neo
+Tom Hanks,Toy Story,ACTED_IN,Woody
+Tom Hanks,Forrest Gump,ACTED_IN,Forrest Gump
+Leonardo DiCaprio,Titanic,ACTED_IN,Jack Dawson
+Leonardo DiCaprio,Inception,ACTED_IN,Dom Cobb
+Kate Winslet,Titanic,ACTED_IN,Rose DeWitt Bukater
+Idina Menzel,Frozen,ACTED_IN,Elsa
+Christian Bale,The Dark Knight,ACTED_IN,Batman
+Morgan Freeman,The Dark Knight,ACTED_IN,Lucius Fox
+Christopher Nolan,The Dark Knight,DIRECTED,
+Christopher Nolan,Inception,DIRECTED,
+James Cameron,Titanic,DIRECTED,
+James Cameron,Avatar,DIRECTED,
+Wachowski Sisters,The Matrix,DIRECTED,
+John Lasseter,Toy Story,DIRECTED,
+John Travolta,Pulp Fiction,ACTED_IN,Vincent Vega
+Samuel L. Jackson,Pulp Fiction,ACTED_IN,Jules Winnfield
+Robin Williams,The Lion King,ACTED_IN,Genie

@@ -1,0 +1,11 @@
+• Which actors have worked both with Christopher Nolan and with James Cameron? List each actor and the movies they did with each director.
+• For every director, who is the actor they’ve collaborated with most often? Return the director → top-actor pairs and the collaboration count.
+• Identify all pairs of actors who co-starred (i.e. share an ACTED_IN movie) in two or more films. For each pair, list the movie titles.
+• Find movies where the actor’s nationality matches the director’s nationality. Group by nationality and compute the average rating per group.
+• Which actors have portrayed more than one distinct character across the dataset? For each actor, list the characters and their respective movies.
+• Determine the top three genres by average rating, and for each genre show the single highest-rated movie and its director.
+• List all actors born before 1970 who appear in Sci-Fi films released after 2000. Include the film title, year and rating.
+• Are there any people in your graph who are both actors and directors? If so, list their name, which films they directed and which they acted in.
+• For each year in the dataset, find the highest-rated movie and name its director.
+• Which directors have worked on both an Animation and an Action film? List the director and the titles of one Animation + one Action movie they directed.
+• Who played the character neo in which movie ?
