@@ -2,6 +2,10 @@
 
 A simple and interactive web application that lets you chat with a movie database stored in Neo4j using AI language models (Deepseek and Google Gemini).
 
+## WorkFlow
+
+![1750777898561](images/readme/1750777898561.png)
+
 ## Features
 
 - Query movies, actors, directors, and relationships using natural language.
@@ -22,24 +26,25 @@ Before you begin, ensure you have the following installed on your system:
 Follow these steps to get the project running locally:
 
 1. **Clone the repository**
-   ```powershell
-   git clone https://github.com/yourusername/neo4j-v2.git
-   cd neo4j-v2
-   ```
 
+   ```powershell
+   git clone https://github.com/Gyana491/neo4j-movie-chatbot.git
+   cd neo4j-movie-chatbot
+   ```
 2. **Create and activate a virtual environment**
+
    ```powershell
    python -m venv venv
    .\venv\Scripts\Activate
    ```
-
 3. **Install project dependencies**
+
    ```powershell
    pip install --upgrade pip
    pip install -r requirements.txt
    ```
-
 4. **Configure environment variables**
+
    - Copy the example file (if provided) or create a new `.env` in `config/`:
      ```powershell
      copy config\.env.example config\.env
@@ -52,17 +57,18 @@ Follow these steps to get the project running locally:
      OPENAI_API_KEY=your_openai_key
      GEMINI_API_KEY=your_gemini_key
      ```
-
 5. **Create and load data into Neo4j**
+
    ```powershell
    python scripts/create_database.py
    python scripts/load_data.py
    ```
-
 6. **Run the Flask application**
+
    ```powershell
    python app.py
    ```
+
    - The app will be available at **http://localhost:8080/**
 
 ## Project Structure
@@ -88,13 +94,3 @@ readme.md              # This file
 - Select the AI model (`Deepseek` or `Gemini`).
 - Type your question (e.g., "Find movies directed by Christopher Nolan").
 - Press **Enter** or click **Send** to get results.
-
-## Troubleshooting
-
-- **Neo4j Connection Errors**: Verify your `NEO4J_URI`, `NEO4J_USER`, and `NEO4J_PASSWORD` in `config/.env`.
-- **Missing Dependencies**: Ensure your virtual environment is activated and run `pip install -r requirements.txt` again.
-- **API Errors**: Check that your OpenAI and Gemini API keys are valid and have sufficient quota.
-
----
-
-*Happy querying!*
